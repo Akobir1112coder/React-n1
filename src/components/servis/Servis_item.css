@@ -1,0 +1,100 @@
+.pages{
+    max-width: 1227px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 105px;
+}
+
+.containerr{
+    max-width: 1440px;
+    margin: auto;
+    padding: 35px 30px 135px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.page-item {
+  padding: 46px 30px;
+  max-width: 542px;
+  border-radius: 5px;
+  box-shadow: 3px 4px 12px 1px #00000040;
+  background: #fff;
+  text-align: center;
+}
+.t-span{
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 15px;
+line-height: 125%;
+color: #000000;
+
+}
+.t-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 10px;
+}
+.t-text-h1{
+    font-family: Work Sans;
+font-weight: 700;
+font-size: 40px;
+line-height: 125%;
+color: #000000;
+
+}
+.h1-span{
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 15px;
+line-height: 125%;
+color: #212529BF;
+}
+.page-item-t{
+margin-bottom: 52px;
+}
+.t-tt-text{
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 15px;
+line-height: 125%;
+text-align: center;
+color: #21252980;
+}
+.page-item-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 45px;
+}
+.t-li{
+    display: flex;
+    gap: 11px;
+}
+.t-li span{
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 15px;
+line-height: 125%;
+text-align: center;
+color: #21252980;
+}
+@media (max-width:1100px){
+    .pages{
+        gap: 50px ;
+    }
+   
+}
+@media (max-width:900px){
+    .pages{
+      flex-direction: column;
+    }
+}

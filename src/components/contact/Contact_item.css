@@ -1,0 +1,86 @@
+.form-div{
+    max-width: 1180px;
+    margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 30px;
+}
+
+
+.maps{
+    height: 384px;
+    overflow: hidden;
+}
+.maps a{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.maps a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.ddd{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.label1{
+    width: 100%;
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 20px;
+line-height: 125%;
+color: #000000;
+
+}
+.inp1, textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: #EEEEEE;
+    resize: none;
+    height: 38px;   
+}
+textarea{
+    height: 75px;
+}
+.submit{
+    border-radius: 5px;
+    background: #212529;
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 20px;
+line-height: 125%;
+text-align: center;
+color: #FFFFFF;
+padding: 13px;
+}
+@media(max-width:900px){
+    .form-div{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .maps{
+        order: 1;
+    }
+    .form{
+        order: 2;
+    }
+}
